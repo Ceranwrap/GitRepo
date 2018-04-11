@@ -1,0 +1,14 @@
+This is the enterprise GDB maintenance log.
+The maintenance script will compress a list of enterprise GDBs.
+Disconnecting users from,GISDATA-SDE.sde
+PYTHON ERRORS:
+Traceback info:
+  File "F:\GIS_Data\Tools\MCTXVSCode\EGDBCompress\EGDBCompress\EGDBCompress.py", line 49, in <module>
+    arcpy.DisconnectUser(DB, "ALL")
+
+Error Info:
+Connection information provided was for a non-administrative user
+Allowing connections to,GISDATA-SDE.sde
+Allowing connections to,GISDATA-SDE.sde
+Compress complete.
+Elapsed time: 0:00:07.64
