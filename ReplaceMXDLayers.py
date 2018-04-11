@@ -2,7 +2,7 @@
 # Purpose: This script will copy all MXDs within the specified directory to a folder on your desktop.
 #               Then it will scan each MXD in that desktop folder, looking for a layer name, per user input, 
 #               and replace with an existing layer file, per user input.
-# Author:   Nicole Ceranek
+# Author:   Ceranwrap
 # Date Created: 02/11/2016
 # Last Modified:    -
 # ArcGIS Version    10.1
