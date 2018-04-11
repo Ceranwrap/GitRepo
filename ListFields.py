@@ -1,6 +1,6 @@
 ﻿# Name: Batch List Fields
 # Purpose: This script will list fields and properties of features found in a dataset.
-# Author:   Nicole Ceranek
+# Author:   Ceranwrap
 # Date Created: 02/12/2016
 # Last Modified:    02/29/2016
 # ArcGIS Version    10.1
