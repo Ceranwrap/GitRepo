@@ -1,6 +1,6 @@
 # Name: Raster Extents to Polygons
 # Purpose: This script will create a polygon for each raster file extent in a directory.
-# Author:   Nicole Ceranek
+# Author:   Ceranwrap
 # Date Created: 02/03/2016
 # Last Modified:    07/06/2016
 # ArcGIS Version    10.1 - 10.4
