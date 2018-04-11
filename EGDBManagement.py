@@ -140,11 +140,11 @@ if ErrorCount > 0:
     from email import Encoders
 
     COMMASPACE = ', '       
-    recips = ["frankr@gie.com","haibingw@gie.com","ebachilo@gie.com"]
-    server = "smtp.gie.com"
-    text = "E:/Scripts/EGDBMaintenance/logs/EGDBmaintenance_"+datetime120+".csv"
+    recips = ["email@domain.com","email2@domain.com"]
+    server = "email.server.com"
+    text = ""
     subject = "EGDB Maintenance: ERROR"
-    me = "gissvc@gie.com"
+    me = "noreply@domain.com"
 
     ##send the email using html, allows you to add a message in the email
     html = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" '
@@ -179,11 +179,11 @@ else:
     from email import Encoders
 
     COMMASPACE = ', '       
-    recips = ["frankr@gie.com","haibingw@gie.com","ebachilo@gie.com"]
-    server = "smtp.gie.com"
-    text = "E:/Scripts/EGDBMaintenance/logs/EGDBmaintenance_"+datetime120+".csv"
+    recips = ["email@domain.com","email2@domain.com"]
+    server = "email.server.com"
+    text = ""
     subject = "EGDB Maintenance: SUCCESS"
-    me = "gissvc@gie.com"
+    me = "noreply@domain.com"
 
     ##send the email using html, allows you to add a message in the email
     html = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" '
