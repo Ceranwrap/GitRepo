@@ -1,9 +1,10 @@
 #------------------------------------------------------------------------------------------------
 # Name: Enterprise GDB Maintenance
 # Purpose: This script will compress a list of enterprise GDBs, update statistics, and  rebuild table indexes.
-# Author:   Nicole Ceranek (nceranek@gie.com)
+# Author:   Ceranwrap
 # ArcGIS Version    10.4
 # Python Version:   2.7.10
+# Created: 6/22/2016
 #------------------------------------------------------------------------------------------------
 ## Import modules
 import arceditor
@@ -26,10 +27,11 @@ arcpy.env.overwriteOutput = True
 
 ## Set script parameters
 # Owner directory
-OwnerFileDir = "E:/Scripts/SDE/Owner/"
-AdminFileDir = "E:/Scripts/SDE/Admin/"
+OwnerFileDir = arcpy.GetParameterAsText(0)
+AdminFileDir = arcpy.GetParameterAsText(1)
+OutLog = arcpy.GetParameterAsText(3)
 # Admin directory
-LogFile = open("E:/Scripts/EGDBMaintenance/logs/EGDBmaintenance_"+datetime120+".csv","w")
+LogFile = open(OutLog+"//GDBMgtLog_"+datetime120+".csv","w")
 # Set script timer
 def hms_string(sec_elapsed):
     h = int(sec_elapsed / (60 * 60))
