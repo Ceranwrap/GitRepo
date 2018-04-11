@@ -1,6 +1,6 @@
 # Name: Update SDE Connection Files
 # Purpose: This script will update SDE connection files found in a specified folder.
-# Author:   Nicole Ceranek
+# Author:   Ceranwrap
 # Date Created: 02/12/2016
 # Last Modified:    05/10/2016
 # ArcGIS Version    10.1
